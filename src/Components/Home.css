@@ -1,0 +1,53 @@
+.rect {
+    width:500px;
+    height:430px;
+    border:2px solid #45434B;
+    margin-left: -200px;
+    z-index: -1;
+}
+
+.description {
+    font-size: 25px;
+    color: #45434B;
+}
+
+.orange-header {
+    color: #FD7350;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-field {
+    margin-left: 225px;
+}
+
+img {
+    width: 500px;
+    height: 375px;
+}
+
+.rect-orange {
+    background-color: #FD7350;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    text-align: center;
+}
+
+.flag {
+    font-size: 25px;
+}
+
+i {
+    border: solid #FD7350;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 20px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
