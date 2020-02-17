@@ -1,18 +1,26 @@
+
+/*change colors here, do not chane variable names*/
+:root {
+    --custom-orange: #FD7350;
+    --custom-grey: #45434B;
+}
+
+
 .rect {
     width:500px;
     height:430px;
-    border:2px solid #45434B;
+    border:2px solid var(--custom-grey);
     margin-left: -200px;
     z-index: -1;
 }
 
 .description {
     font-size: 25px;
-    color: #45434B;
+    color: var(--custom-grey);
 }
 
 .orange-header {
-    color: #FD7350;
+    color: var(--custom-orange);
     font-weight: bold;
     font-size: 50px;
     margin-top: 30px;
@@ -23,13 +31,18 @@
     margin-left: 225px;
 }
 
+.project-text-field {
+    margin-left: 225px;
+    margin-top: 100px;
+}
+
 img {
     width: 500px;
     height: 375px;
 }
 
 .rect-orange {
-    background-color: #FD7350;
+    background-color: var(--custom-orange);
     color: white;
     font-weight: bold;
     width: 300px;
@@ -41,7 +54,7 @@ img {
 }
 
 i {
-    border: solid #FD7350;
+    border: solid var(--custom-orange);
     border-width: 0 5px 5px 0;
     display: inline-block;
     padding: 20px;
@@ -50,4 +63,36 @@ i {
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+}
+
+.section-title {
+    font-size: 40px;
+    color: var(--custom-orange);
+    margin-left:200px;
+}
+
+.project-pic {
+    height: 280px;
+    width: 350px;
+}
+
+.project-description {
+    font-size: 20px;
+    color: var(--custom-grey);
+}
+
+.orange-project-header {
+    color: var(--custom-orange);
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.project-rect {
+    width: 890px;
+   height: 330px;
+    border:2px solid var(--custom-grey);
+    margin-left: -200px;
+    z-index: -1;
 }

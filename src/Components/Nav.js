@@ -4,7 +4,7 @@ import './Nav.css';
 
 function Nav() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg navbar-light sticky-top bg-white">
             <a className="navbar-brand" href="#">
                 <p className={'nav-header'}> Noah Taylor </p>
             </a>
