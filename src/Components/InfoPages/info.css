@@ -1,0 +1,29 @@
+.orange-header-project {
+    color: var(--custom-orange);
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 183px;
+}
+
+.rect {
+    align-items: center;
+    display: flex;
+    color: var(--custom-grey);
+}
+
+.text-field-left {
+    margin-right: 225px;
+}
+
+.rect-right {
+    width:500px;
+    height:430px;
+    border:2px solid var(--custom-grey);
+    margin-right: -200px;
+    z-index: -1;
+    align-items: center;
+    display: flex;
+    color: var(--custom-grey);
+}

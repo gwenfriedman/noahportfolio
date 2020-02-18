@@ -1,13 +1,16 @@
 import React from 'react';
-import './Home.css';
 import './Nav.css';
+import {Link} from "react-router-dom";
+
 
 function Nav() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light sticky-top bg-white">
-            <a className="navbar-brand" href="#">
+            {/*<Link to={`/`}>*/}
+            <a className="navbar-brand">
                 <p className={'nav-header'}> Noah Taylor </p>
             </a>
+            {/*</Link>*/}
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
