@@ -2,14 +2,15 @@ import React from 'react';
 import './info.css';
 
 // import new image here
-import balloon from '../../images/balloon.png';
+import balloon from '../../images/balloon.jpg';
+import balloon2 from '../../images/balloon2.jpg';
+import balloon3 from '../../images/balloon3.jpg';
 
-function Home() {
+function Hashbrowwn() {
     return (
         <div className="Hashbrowwn">
             <p className={'orange-header-project'}> HASHBROWWN Balloon</p>
 
-            {/*Most Recent Project*/}
             <div className={'row mt-5 justify-content-center'}>
                 {/*replace image here*/}
                 <img className={'rounded my-auto'} src={balloon} alt="Hashbrowwn balloon"/>
@@ -37,10 +38,31 @@ function Home() {
                         </p>
                     </div>
                 </div>
-                <img className={'rounded my-auto'} src={balloon} alt="Hashbrowwn balloon"/>
+                <img className={'rounded my-auto'} src={balloon2} alt="Hashbrowwn balloon"/>
+            </div>
+
+
+            <div className={'row mt-5 justify-content-center'}>
+                {/*replace image here*/}
+                <img className={'rounded my-auto balloon3'} src={balloon3} alt="Hashbrowwn balloon"/>
+                <div className={'rect rounded balloon-3'}>
+                    <div className={'text-field'}>
+                        {/*Replace Description here*/}
+                        <p className={'description'}>
+                            The 5kg payload suspended beneath the balloon from the bottom ring included custom circuit
+                            boards capable of remotely controlling the balloon, communicating with our ground station,
+                            mapping the balloons position, and recording video. It was also necessary that our payload
+                            had an emergency release mechanism. We tested our balloons small-scale and large-scale,
+                            both in arenas and on test fields. By doing this, we could see how the prototypes scaled
+                            based on our materials and methods. The largest balloon we built had an 8 meter diameter
+                            with a height of 12 meters.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
+
     );
 }
 
-export default Home;
+export default Hashbrowwn;

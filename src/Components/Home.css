@@ -78,6 +78,9 @@ i {
 .project-description {
     font-size: 20px;
     color: var(--custom-grey);
+    margin-right: 20px;
+    align-items: center;
+    display: flex;
 }
 
 .orange-project-header {

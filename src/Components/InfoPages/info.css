@@ -13,17 +13,40 @@
     color: var(--custom-grey);
 }
 
+.description {
+    font-size: 20px;
+    color: var(--custom-grey);
+    margin-right: 30px;
+}
+
 .text-field-left {
-    margin-right: 225px;
+    margin-right: 350px;
+    margin-left: 30px;
 }
 
 .rect-right {
     width:500px;
     height:430px;
     border:2px solid var(--custom-grey);
-    margin-right: -200px;
+    margin-right: -333px;
     z-index: -1;
     align-items: center;
     display: flex;
     color: var(--custom-grey);
+}
+
+img {
+    height: 375px;
+    width: auto;
+}
+
+.balloon3 {
+    height: 304px;
+    width: 375px;
+    transform: rotate(90deg);
+
+}
+
+.balloon-3 {
+    width: 900px;
 }
