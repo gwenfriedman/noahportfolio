@@ -10,10 +10,14 @@ import {BrowserRouter as Router, Route} from "react-router-dom";
 function App() {
     return (
         <div>
-            <Nav/>
             <Router>
+                <Nav/>
                 <div>
                     <Route exact path='/'
+                           component={Home}/>
+                </div>
+                <div>
+                    <Route exact path='/home'
                            component={Home}/>
                 </div>
                 <div>

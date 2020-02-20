@@ -1,16 +1,14 @@
 import React from 'react';
 import './Nav.css';
-import {Link} from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 function Nav() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light sticky-top bg-white">
-            {/*<Link to={`/`}>*/}
-            <a className="navbar-brand">
+            <a href={"/"} className={"navbar-brand"}>
                 <p className={'nav-header'}> Noah Taylor </p>
             </a>
-            {/*</Link>*/}
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -18,19 +16,22 @@ function Nav() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto mr-5">
                     <li className="nav-item mr-4">
-                        <a className="nav-link" href="/">
+                        <Link smooth to="/#mechanical"
+                              activeClassName="selected" className="nav-link">
                             <p className={'link'}>Mechanical</p>
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item mr-4">
-                        <a className="nav-link" href="/">
+                        <Link to="/#electrical"
+                              activeClassName="selected" className="nav-link">
                             <p className={'link'}>Electrical</p>
-                            </a>
+                        </Link>
                     </li>
                     <li className="nav-item mr-3">
-                        <a className="nav-link" href="/">
+                        <Link to="/#materials"
+                              activeClassName="selected" className="nav-link">
                             <p className={'link'}>Materials</p>
-                        </a>
+                        </Link>
                     </li>
                     <svg className={'mr-3'} height="45" width="2">
                         <line x1="0" y1="0" x2="0" y2="45"/>
