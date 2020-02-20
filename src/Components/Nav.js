@@ -18,17 +18,17 @@ function Nav() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto mr-5">
                     <li className="nav-item mr-4">
-                        <a className="nav-link" href="#">
+                        <a className="nav-link" href="/">
                             <p className={'link'}>Mechanical</p>
                         </a>
                     </li>
                     <li className="nav-item mr-4">
-                        <a className="nav-link" href="#">
+                        <a className="nav-link" href="/">
                             <p className={'link'}>Electrical</p>
                             </a>
                     </li>
                     <li className="nav-item mr-3">
-                        <a className="nav-link" href="#">
+                        <a className="nav-link" href="/">
                             <p className={'link'}>Materials</p>
                         </a>
                     </li>
@@ -36,12 +36,12 @@ function Nav() {
                         <line x1="0" y1="0" x2="0" y2="45"/>
                     </svg>
                     <li className="nav-item mr-4">
-                        <a className="nav-link" href="#">
+                        <a className="nav-link" href="/">
                             <p className={'link'}>Hobbies</p>
                         </a>
                     </li>
                     <li className="nav-item mr-5">
-                        <a className="nav-link" href="#">
+                        <a className="nav-link" href="/">
                             <p className={'link'}>Me</p>
                         </a>
                     </li>

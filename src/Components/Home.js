@@ -14,7 +14,7 @@ function Home() {
         <div className="Home">
 
             {/*Most Recent Project*/}
-            <Link to={`/hashbrowwn`}>
+            <Link to={`/hashbrowwn`} style={{ textDecoration: 'none'}}>
                 <div className={'row mt-5 justify-content-center'}>
                     {/*replace image here*/}
                     <img className={'rounded my-auto'} src={balloon} alt="Hashbrowwn balloon"/>
