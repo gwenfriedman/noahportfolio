@@ -4,7 +4,6 @@
     color: var(--custom-grey);
     margin-bottom: -10px;
     margin-top: -5px;
-    margin-left: 183px;
 }
 
 .link {
@@ -18,9 +17,10 @@
     border-bottom: 2px solid var(--custom-orange);
 }
 
-#navbarNav {
-    margin-right: 85px;
+#responsive-navbar-nav {
+    /*margin-left: 300px;*/
 }
+
 
 line {
     stroke: var(--custom-orange);

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Home from './Components/Home';
-import Nav from './Components/Nav';
+import Home from './Components/Home.js';
+import Navigation from './Components/Nav.js';
 import Hashbrowwn from './Components/InfoPages/Hashbrowwn';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -11,7 +11,7 @@ function App() {
     return (
         <div>
             <Router>
-                <Nav/>
+                <Navigation/>
                 <div>
                     <Route exact path='/'
                            component={Home}/>
