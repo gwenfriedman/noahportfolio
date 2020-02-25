@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './Components/Home.js';
+import Home2 from './Components/Home2.js';
 import Navigation from './Components/Nav.js';
 import Hashbrowwn from './Components/InfoPages/Hashbrowwn';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,11 +15,7 @@ function App() {
                 <Navigation/>
                 <div>
                     <Route exact path='/'
-                           component={Home}/>
-                </div>
-                <div>
-                    <Route exact path='/home'
-                           component={Home}/>
+                           component={Home2}/>
                 </div>
                 <div>
                     <Route exact path='/hashbrowwn'

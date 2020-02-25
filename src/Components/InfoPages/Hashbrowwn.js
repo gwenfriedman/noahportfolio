@@ -13,8 +13,8 @@ function Hashbrowwn() {
 
             <div className={'row mt-5 justify-content-center'}>
                 {/*replace image here*/}
-                <img className={'rounded my-auto'} src={balloon} alt="Hashbrowwn balloon"/>
-                <div className={'rect rounded col-6'}>
+                <img className={'rounded my-auto image col-4'} src={balloon} alt="Hashbrowwn balloon"/>
+                <div className={'rect rounded col-7'}>
                     <div className={'text-field'}>
                         {/*Replace Description here*/}
                         <p className={'description'}>
