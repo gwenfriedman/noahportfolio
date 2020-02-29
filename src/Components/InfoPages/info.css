@@ -47,12 +47,33 @@ img {
 }
 
 .balloon3 {
-    height: 304px;
-    width: 375px;
     transform: rotate(90deg);
 
 }
 
 .balloon-3 {
     width: 900px;
+}
+
+.project {
+    margin-top: 100px;
+}
+
+.card-text-mobile {
+    margin-top: 75px;
+}
+
+.card-mobile {
+    height: 300px;
+}
+
+.card-left {
+    margin-right: -200px;
+    height: 450px;
+    z-index: -1;
+}
+
+.card-body-left {
+    margin-left: 50px;
+    margin-right: 200px;
 }

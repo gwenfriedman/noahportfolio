@@ -8,12 +8,12 @@ import Nav from "react-bootstrap/Nav";
 function Navigation() {
 
     return (
-        <Navbar collapseOnSelect expand="lg" bg="white" variant="light" className="navbar container-fluid">
-            <Navbar.Brand as={Link} className="navbar-brand" to="/">
+        <Navbar collapseOnSelect fixed="top" expand="lg" bg="white" variant="light" className="navbar container-fluid">
+            <Navbar.Brand as={Link} className="navbar-brand ml-5" to="/">
                 <p className={'nav-header'}> Noah Taylor </p>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-            <Navbar.Collapse id="responsive-navbar-nav" className={'ml-4'}>
+            <Navbar.Collapse id="responsive-navbar-nav" className={'ml-4 justify-content-end'}>
                 <Nav className="mr-5">
                     <Link smooth to="/#mechanical"
                           activeClassName="selected" className="nav-link mr-4">
